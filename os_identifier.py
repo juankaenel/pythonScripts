@@ -20,7 +20,7 @@ def return_ttl_os_name(ttl_num):
         return "Sistema Operativo desconocido"
 
 if len(sys.argv) != 2: # si los argumentos que pasamos son distento de 2
-    print("\n[*] Usage: python " + sys.argv[0] + " <ip-address>\n")
+    print("\n[*] Para utilizar el script escriba: python " + sys.argv[0] + " <ip-address>\n")
     sys.exit(1)
 
 if __name__ == '__main__':
